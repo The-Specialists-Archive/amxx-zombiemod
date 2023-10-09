@@ -1,0 +1,55 @@
+This Zombie mod was made by StevenlAFl.
+
+The say commands are:
+
+IMPORTANT: VoteMap Menu - /votemap
+
+Weapons Menu - /weaponsmenu
+Pistols Menu - /pistolmenu
+Sub-Machine Guns Menu - /submachinemenu
+Shotgun Menu - /shotgunmenu
+Rifle Menu - /riflemenu
+Heavy Weapons Menu - /heavymenu
+
+Use speed powerup - /speed
+Show MOTD - /motd
+Show off skills - /showoff
+
+Reset current EXP count - /resetexp
+Laser sight addon - /laser
+Flashlight addon - /flashlight
+Silencer addon - /silencer
+Scope addon - /scope
+Reset addons - /resetflags
+
+Random weapon - /weapon
+Random pistol - /pistol
+AK47 - /ak47
+Akimbo Berettas - /akimbos
+Barrett - /barret
+Benelli M3 - /m3
+Combat Knife - /knife
+Contender - /contender
+Deagle - /deagle
+Fiveseven - /fiveseven
+Glock18 - /glock18
+Glock20C - /glock20c
+Golden Colts - /colts
+Katana - /katana
+M16A1 - /m16
+m4a1 - /m4a1
+M60E3 - /m60
+M61 Grenade - /grenade
+Mossberg - /mossberg
+MP5K - /mp5k
+MP5SD - /mp5sd
+Raging Bull - /ragingbull
+Ruger - /ruger
+Sawed-Off Shotgun - /sawedoff
+Seal Knife - /seal
+Socom - /socom
+SPAS 12 - /spas12
+Steyr-AUG - /aug
+UMP - /ump
+USAS 12 - /autoshottie
+Uzi - /uzi

@@ -1,0 +1,41 @@
+name: Compile and package AMXX deliverables
+run-name: ${{ github.event.head_commit.message }}
+on: [push]
+jobs:
+  push-action:
+    runs-on: ubuntu-latest
+    container:
+      image: stevenlafl/amxmodx-ci
+      options: --user root -v ${{ github.workspace }}:/app
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: compile.sh
+      - run: |
+          mkdir -p staging/addons/amxmodx/plugins
+          mkdir -p staging/addons/amxmodx/scripting
+          mkdir -p staging/addons/amxmodx/configs
+          cp compiled/* staging/addons/amxmodx/plugins/
+          cp *.sma staging/addons/amxmodx/scripting/
+          cp -r support/configs/* staging/addons/amxmodx/configs/
+          cp -r support/dlls staging/
+          cp -r support/models staging/
+          cp -r support/sound staging/
+          cp support/motds/* staging/
+          cp support/root/* staging/
+          cp support/sql/* staging/
+          cd staging
+          tar -czf ../zombiemod-${{ github.ref_name }}.tar.gz *
+          cd ..
+        if: startsWith(github.ref, 'refs/tags/')
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: compiled
+          path: ${{ github.workspace }}/compiled
+      # In Settings / Actions / General / Workflow Permissions make sure you select "read and write permissions"
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: ${{ github.workspace }}/zombiemod-${{ github.ref_name }}.tar.gz

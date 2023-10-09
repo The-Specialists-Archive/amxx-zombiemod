@@ -1,0 +1,15 @@
+SERVER RULES:
+  
+    * Do not hack or use exploits in the Half Life Engine.
+    * Do not spam the server with text or a microphone.
+    * Be respectful towards other players.
+    * Racist attitudes and other bigotry will not be tolerated.
+    * You may recover HP or reload in an area of safety. However, camping or attacking zombies in these areas is against the rules. This includes any area where a zombie can not naturally get to, such as the rooftops on Mecklenburg or behind the fence on TS_Bikini.
+
+
+Warning: Failure to abide by these rules will result in a ban.
+
+This mod is made by StevenlAFl and is in no way related to Harbu.
+
+This mod is also the same one on "Zombie DM - Steve.finalseconds.com"
+and thus you have the same levels on all "Zombie DM" named servers.
