@@ -20,7 +20,6 @@ jobs:
           cp -r support/configs/* staging/addons/amxmodx/configs/
           cp -r support/dlls staging/
           cp -r support/models staging/
-          cp -r support/sound staging/
           cp support/motds/* staging/
           cp support/root/* staging/
           cp support/sql/* staging/
