@@ -30,7 +30,7 @@ hud_green "175"
 hud_blue "0"
 info_hud_pos_x "0.45"   # X Position of info on players screen
 info_hud_pos_y "0.84"   # Y Position of info on players screen
-info_hud_red "200      # Hud Colors
+info_hud_red "200"      # Hud Colors
 info_hud_green "200"
 info_hud_blue "200"
 sv_grammar "1"
