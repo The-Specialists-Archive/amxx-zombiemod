@@ -23,20 +23,20 @@ sv_remove_breakable "0"
 sv_remove_train "0"
 sv_remove_button "0"
 sv_remove_powerup "0"
-hud_pos_x","-1.9        # X Position of ZombieMod on players screen
-hud_pos_y","0.55        # Y Position of ZombieMod on players screen
-hud_red","0             # Hud Colors
+hud_pos_x "-1.9"        # X Position of ZombieMod on players screen
+hud_pos_y "0.55"        # Y Position of ZombieMod on players screen
+hud_red "0"             # Hud Colors
 hud_green "175"
 hud_blue "0"
-info_hud_pos_x","0.45   # X Position of info on players screen
-info_hud_pos_y","0.84   # Y Position of info on players screen
-info_hud_red","200      # Hud Colors
+info_hud_pos_x "0.45"   # X Position of info on players screen
+info_hud_pos_y "0.84"   # Y Position of info on players screen
+info_hud_red "200      # Hud Colors
 info_hud_green "200"
 info_hud_blue "200"
 sv_grammar "1"
 sv_playerzombie_hp "300"
 sv_computerzombie_hp "100"
-sv_player_hp","100 ;
+sv_player_hp "100"
 sv_zombieknife "0"
 sv_parasite "0"
 sv_nemesis "1"
